@@ -1,0 +1,443 @@
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;600&display=swap');
+            body {
+                background: rgba(255, 255, 255, 1);
+                font-family: 'Quicksand', sans-serif;
+            }
+            
+            #menu {
+                position: absolute;
+            }
+            
+            #cabecalho {
+                position: relative;
+                left: 225px;
+            }
+            
+            #itens-cabecalho {
+                position: relative;
+                flex-direction: row;
+                left: 1120px;
+                bottom: 65px;
+                padding: 0;
+            }
+            
+            #item-cabecalho {
+                position: absolute;
+                left: 1125px;
+                height: 25px;
+                right: 0px;
+                top: 125px;
+                font-family: 'Roboto', sans-serif;
+                color: rgba(237, 120, 57, 1);
+            }
+            
+            #itens-cabecalho:hover {
+                cursor: pointer;
+            }
+            
+            .detalhes-lateral {
+                position: relative;
+                width: 240px;
+                height: 439px;
+                left: 1078px;
+                bottom: 465px;
+                box-sizing: border-box;
+                border: 1px, solid rgba(236, 236, 236, 1);
+            }
+            
+            #titulo {
+                background: #FDF1EB;
+                font-family: 'roboto', sans-serif;
+                padding: 10px;
+                border-radius: 3px;
+            }
+            
+            #postagem-lateral {
+                font-family: 'Quicksand', sans-serif;
+                font-size: 14px;
+                font-weight: 400px;
+            }
+            
+            #conteudo-principal {
+                position: relative;
+                border: 1px solid #ECECEC;
+                border-radius: 3px;
+                width: 1058px;
+                height: 189px;
+                left: 250px;
+                bottom: 400px;
+            }
+            
+            #conteudo-principal2 {
+                position: relative;
+                border: 1px solid #ECECEC;
+                border-radius: 3px;
+                width: 1058px;
+                height: 500px;
+                left: 250px;
+                bottom: 400px;
+            }
+            
+            #titulo2 {
+                background-color: rgba(253, 241, 235, 1);
+                font-weight: 500px;
+                font-size: 20px;
+                line-height: 25px;
+                width: 1058px;
+                height: 45px;
+                margin: 0;
+                border: 1px solid rgba(236, 236, 236, 1);
+                border-radius: 3px 3px 0px 0px;
+                font-family: 'roboto', sans-serif;
+                color: rgba(78, 78, 78, 1);
+            }
+            
+            #primeiro-paragrafo {
+                font-family: 'Quicksand', sans-serif;
+                font-weight: 400px;
+                font-style: normal;
+                font-size: 14px;
+                line-height: 23px;
+                letter-spacing: 0.02em;
+                padding-left: 15px;
+            }
+            
+            #link {
+                text-decoration: none;
+                color: rgba(237, 120, 57, 1);
+            }
+            /*formatação topico discussão*/
+            
+            #topico-discussao {
+                position: relative;
+                width: 1058px;
+                height: 621px;
+                left: 250px;
+                bottom: 365px;
+                font-weight: 700px;
+                font-size: 18px;
+                line-height: 21.09px;
+                border: 1px solid #ECECEC;
+            }
+            
+            #titulo3 {
+                color: rgba(237, 120, 57, 1);
+                font-family: 'roboto', sans-serif;
+                width: 422px;
+                height: 22px;
+                top: 821px;
+            }
+            
+            #img {
+                padding: 12px;
+            }
+            
+            #img2 {
+                padding: 45px;
+            }
+            
+            #img2:hover {
+                cursor: pointer;
+            }
+            
+            #texto-discussao2 {
+                position: absolute;
+                font-family: 'Quicksand', sans-serif;
+                font-style: normal;
+                font-weight: 400px;
+                font-size: 14px;
+                line-height: 19px;
+                color: #595959;
+                Width: 626px;
+                Height: 39px;
+                left: 216.5px;
+                text-align: center;
+            }
+            
+            #topico-discussao2 {
+                border: 1px solid #E7E7E7;
+                position: absolute;
+                width: 1028px;
+                height: 148px;
+                left: 15px;
+                box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+                border-radius: 4px;
+                bottom: 168px;
+            }
+            
+            #topico-discussao3 {
+                border: 1px solid #E7E7E7;
+                position: absolute;
+                width: 1028px;
+                height: 148px;
+                left: 15px;
+                box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+                border-radius: 4px;
+                top: 463px;
+            }
+            
+            #titulo4 {
+                position: absolute;
+                font-family: 'Quicksand', sans-serif;
+                color: rgba(237, 120, 57, 1);
+                width: 267px;
+                height: 20px;
+                Left: 39.17px;
+                font-weight: 700px;
+                font-size: 16px;
+                bottom: 98px;
+            }
+            
+            #subtitulo {
+                position: absolute;
+                font-family: 'Quicksand', sans-serif;
+                width: 542.07px;
+                height: 15px;
+                font-weight: 500px;
+                font-size: 12px;
+                left: 39.17px;
+                color: #5C5C5C;
+                top: 25px;
+            }
+            
+            #text-discussao3 {
+                font-family: 'Quicksand', sans-serif;
+                position: absolute;
+                width: 980.07px;
+                height: 35px;
+                left: 39.17px;
+                color: #4D4D4D;
+                font-weight: 400px;
+                font-size: 14px;
+                top: 40px;
+            }
+            
+            #img3 {
+                position: relative;
+                width: 165px;
+                height: 19px;
+                left: 39px;
+                top: 105px;
+            }
+            
+            #img3:hover {
+                cursor: pointer;
+            }
+            
+            h2 {
+                position: relative;
+                font-family: 'roboto', sans-serif;
+                font-size: 22px;
+                width: 786px;
+                height: 54px;
+                left: 269px;
+                color: rgba(237, 120, 57, 1);
+                padding-bottom: 0%;
+            }
+            /*formatação do video*/
+            
+            #video {
+                position: relative;
+                left: 250px;
+            }
+            
+            #video:hover {
+                cursor: pointer;
+            }
+            
+            #titulo5 {
+                position: absolute;
+                width: 1020.52px;
+                Left: 39.17px;
+                bottom: 75.92%;
+                font-family: 'Roboto', sans-serif;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 19px;
+                color: #ED7839;
+            }
+            /*formataçao do formulario*/
+            
+            #form {
+                position: absolute;
+                left: 39.17px;
+                bottom: 75.92%;
+            }
+            
+            #titulo6 {
+                position: absolute;
+                width: 1020.52px;
+                Left: 39.17px;
+                bottom: 420px;
+                font-family: 'Roboto', sans-serif;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 19px;
+                color: #ED7839;
+            }
+            /*formataçao do formulario*/
+            
+            #form2 {
+                position: absolute;
+                left: 39.17px;
+                bottom: 340px;
+            }
+            
+            #enviar-botao {
+                position: absolute;
+                left: 88%;
+                bottom: 340px;
+                background: #ED7839;
+                color: #E7E7E7;
+                border: 1px solid #e7e7e7;
+                border-radius: 10PX;
+            }
+            
+            #enviar-botao:hover {
+                cursor: pointer;
+            }
+            /*formatação da parte de discussão*/
+            
+            #texto-discussao4 {
+                position: absolute;
+                font-family: 'Quicksand', sans-serif;
+                width: 805.25px;
+                height: 20px;
+                left: 113.34px;
+                font-weight: 400px;
+                font-size: 14px;
+                color: #595959;
+                bottom: 475px;
+            }
+            
+            #link2 {
+                position: absolute;
+                font-family: 'Quicksand', sans-serif;
+                width: 306.2px;
+                height: 20px;
+                left: 363.71px;
+                font-weight: 500px;
+                font-size: 14px;
+                color: #F48F44;
+                bottom: 450px;
+            }
+            
+            #img-criar-topico {
+                position: relative;
+                padding: 90px;
+            }
+            
+            #img-criar-topico:hover {
+                cursor: pointer;
+            }
+            
+            #topico-discussao5 {
+                position: relative;
+                width: 1058px;
+                height: 1234px;
+                left: 250px;
+                bottom: 365px;
+                font-weight: 700px;
+                font-size: 18px;
+                line-height: 21.09px;
+                border: 1px solid #ECECEC;
+            }
+            
+            #topico-discussao6 {
+                border: 1px solid #E7E7E7;
+                position: absolute;
+                width: 1028px;
+                height: 148px;
+                left: 15px;
+                box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+                border-radius: 4px;
+                bottom: 775px;
+            }
+            
+            #topico-discussao7 {
+                border: 1px solid #E7E7E7;
+                position: absolute;
+                width: 1028px;
+                height: 148px;
+                left: 15px;
+                box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+                border-radius: 4px;
+                top: 463px;
+            }
+            /*formatação do card aberto*/
+            
+            #card-aberto {
+                position: absolute;
+                width: 1028px;
+                height: 131px;
+                background: #F8F8F8;
+                border: 1px solid #E7E7E7;
+                top: 145px;
+            }
+            
+            #subtitulo-card1 {
+                position: absolute;
+                font-family: 'Quicksand', sans-serif;
+                width: 542.6px;
+                height: 15px;
+                left: 38.19px;
+                font-size: 12px;
+                color: #5C5C5C;
+                font-weight: 700px;
+                top: 10px;
+            }
+            
+            #comentario {
+                font-family: 'Quicksand', sans-serif;
+                position: absolute;
+                width: 980.07px;
+                height: 35px;
+                left: 39.17px;
+                color: #4D4D4D;
+                font-weight: 400px;
+                font-size: 14px;
+                top: 25px;
+            }
+            
+            #card-aberto2 {
+                position: absolute;
+                width: 1028px;
+                height: 131px;
+                border: 1px solid #E7E7E7;
+                top: 280px;
+            }
+            
+            #card-aberto3 {
+                position: absolute;
+                width: 1028px;
+                height: 131px;
+                border: 1px solid #E7E7E7;
+                top: 415px;
+                background: #F8F8F8;
+            }
+            
+            #card-aberto4 {
+                position: absolute;
+                width: 1028px;
+                height: 131px;
+                border: 1px solid #E7E7E7;
+                top: 548px;
+                background: #F8F8F8;
+            }
+            /*formatação do rodape*/
+            
+            footer {
+                position: absolute;
+                width: 1086px;
+                height: 191px;
+                top: 655px;
+                right: 9px;
+            }
+            
+            #footer {
+                position: absolute;
+                top: 615px;
+            }

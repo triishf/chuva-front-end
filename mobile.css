@@ -1,0 +1,113 @@
+                            @media screen and (max-width: 760px) {
+                                #menu {
+                                    flex-direction: column;
+                                    position: absolute;
+                                    width: 155px;
+                                    height: 2000px;
+                                }
+                                #img-logo-slaca {
+                                    width: 155px;
+                                    height: 258px;
+                                }
+                                #img-nome-event {
+                                    width: 155px;
+                                }
+                                #itens-menu {
+                                    width: 45%;
+                                    left: 10px;
+                                }
+                                #cabecalho1 {
+                                    display: flex;
+                                    flex-direction: column;
+                                    width: 745px;
+                                    height: 74px;
+                                }
+                                #paragrafo1 {
+                                    left: -55px;
+                                }
+                                #paragrafo2 {
+                                    left: -55px;
+                                    font-size: 18px;
+                                }
+                                #paragrafo3 {
+                                    left: -55px;
+                                    top: 35px;
+                                }
+                                select {
+                                    display: none;
+                                }
+                                #link-login {
+                                    left: 150px;
+                                    top: 45px;
+                                }
+                                h2 {
+                                    font-size: 20px;
+                                    width: 640px;
+                                    left: 165px;
+                                    color: rgba(237, 120, 57, 1);
+                                    padding-bottom: 0%;
+                                }
+                                #video {
+                                    left: 170px;
+                                    width: 550px;
+                                }
+                                #itens-cabecalho {
+                                    display: none;
+                                }
+                                #item-cabecalho {
+                                    display: none;
+                                }
+                                #detalhes-lateral {
+                                    display: none;
+                                }
+                                #titulo {
+                                    display: none;
+                                }
+                                #postagem-lateral {
+                                    display: none;
+                                }
+                                #conteudo-principal {
+                                    width: 567px;
+                                    left: 165px;
+                                    height: 360px;
+                                }
+                                #titulo2 {
+                                    font-size: 20px;
+                                    width: 567px;
+                                }
+                                #topico-discussao {
+                                    width: 567px;
+                                    height: 621px;
+                                    left: 165px;
+                                }
+                                #texto-discussao2 {
+                                    Width: 567px;
+                                    Height: 39px;
+                                    left: 10px;
+                                }
+                                #topico-discussao2 {
+                                    width: 567px;
+                                    height: 148px;
+                                    left: 0px;
+                                }
+                                #topico-discussao3 {
+                                    width: 567px;
+                                    height: 148px;
+                                    left: 0px;
+                                }
+                                #text-discussao3 {
+                                    width: 567px;
+                                    height: 40px;
+                                    left: 3px;
+                                    color: #4D4D4D;
+                                    font-weight: 400px;
+                                    font-size: 14px;
+                                    top: 35px;
+                                }
+                                #img3 {
+                                    top: 120px;
+                                }
+                                footer {
+                                    display: none;
+                                }
+                            }
